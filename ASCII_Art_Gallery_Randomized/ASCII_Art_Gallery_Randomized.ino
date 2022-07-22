@@ -12,7 +12,7 @@ int getRandNumber(){
 }
 
 void setup() {
-  // Baudrate is directly proportional to time taken to print image, so use a faster one
+  // Baud rate is directly proportional to time taken to print image, so use a faster one
   Serial.begin(115200);
   while(!Serial){
     ; // Wait for serial port to connect
@@ -43,6 +43,7 @@ void loop() {
   String fileName = String(randNumber);
   fileName += ".txt";
   Serial.println();
+  Serial.print("Now displaying: ");
   Serial.println(fileName);
   
   File dataFile = SD.open(fileName);

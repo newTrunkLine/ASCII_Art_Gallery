@@ -6,7 +6,7 @@ const int numPictures = 12;
 int counter = 1;
 
 void setup() {
-  // Baudrate is directly proportional to time taken to print image, so use a faster one
+  // Baud rate is directly proportional to time taken to print image, so use a faster one
   Serial.begin(115200);
   while(!Serial){
     ; // Wait for serial port to connect
@@ -25,6 +25,7 @@ void loop() {
   String fileName = String(counter);
   fileName += ".txt";
   Serial.println();
+  Serial.print("Now displaying: ");
   Serial.println(fileName);
   
   File dataFile = SD.open(fileName);
