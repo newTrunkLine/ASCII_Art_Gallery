@@ -1,8 +1,3 @@
-# ASCII Art Gallery
- 
-## Background
-To test out an Arduino micro SD card module, I wrote some simple programs that would open the SD card and print the contents into the serial monitor. Since the micro SD card was loaded with text files that formed ASCII art once zoomed out far enough, the program became an art gallery of sorts.
-
 ## Hardware Requirements and Wiring
 - Arduino UNO
 - Micro SD card module
