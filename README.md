@@ -1,15 +1,12 @@
 # ASCII Art Gallery
  
-## Background
-To test out an Arduino micro SD card module, I wrote some simple programs that would open the SD card and print the contents into the serial monitor. Since the micro SD card was loaded with text files that formed ASCII art once zoomed out far enough, the program became an art gallery of sorts.
-
 ## Hardware Requirements and Wiring
 - Arduino UNO
 - Micro SD card module
 - Micro SD card
 - Jumper wires
 
-| Arduino Pin | Micro SD Card Module |
+| Arduino UNO Pin | Micro SD Card Module |
 |-|-|
 | GND | GND |
 | 5V | VCC |
@@ -33,3 +30,7 @@ Once you have your micro SD card loaded with your ASCII art of choice, plug it i
 Once the program is running, open the serial monitor, set the baudrate to 115200, and zoom out to see your beautiful ASCII art pieces being displayed.
 
 *It's not really random. Rather, a random image will be displayed so long as it wasn't the last or second-last image to be displayed. This was done to add a bit of variance to the art gallery.
+
+## Further Reading
+
+TBD
