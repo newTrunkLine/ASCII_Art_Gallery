@@ -33,4 +33,4 @@ Once the program is running, open the serial monitor, set the baudrate to 115200
 
 ## Further Reading
 
-TBD
+Please see: https://sites.google.com/view/newtrunkline/personal-projects/ascii-art-gallery
